@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Musteri>
+    <adSoyad>adim soyadim</adSoyad>
+    <kullaniciAdi>kullaniciAdim</kullaniciAdi>
+    <sifre>sifrem</sifre>
+    <kartNo>111111</kartNo>
+</Musteri>

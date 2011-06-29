@@ -1,0 +1,139 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   </head>
+   <body>
+      <table bgcolor="#CCCCFF" border="0" cellpadding="1" cellspacing="3" table-layout="fixed" width="100%">
+         <tr bgColor="#CCCCFF" width="100%">
+            <td width="72" align="center"><b><a href="overview-summary.html">Overview</a></b></td>
+            <td width="72" align="center"><b><a href="tr.edu.ege.sst.samplechat.executors.html">Package</a></b></td>
+            <td bgColor="#00008B" width="72" align="center"><span style="color:#FFFFFF; font-weight:bold">Class</span></td>
+            <td width="72" align="center">Diagram</td>
+            <td>&nbsp;</td>
+         </tr></tbody>
+      </table>
+      <hr>
+      <h2><font size="-1">tr.edu.ege.sst.samplechat.executors</font></h2><span style="font-size:large; font-weight:bold">Class&nbsp;</span><span style="font-size:large; font-weight:bold">ClientA</span><br><br>public <b>ClientA</b><br><p>The Client A is an executor of TComm infrastructure.</p><br><br><br><table border="1" cellpadding="3" cellspacing="0" width="100%">
+      <thead>
+         <tr>
+            <td bgColor="#CCCCFF" colspan="2"><span style="font-size:large; font-weight:bold">Field Summary</span></td>
+         </tr>
+      </thead><tbody>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>private static final long</code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#14">serialVersionUID</a></code><br> &nbsp;
+            										
+         </td>
+      </tr>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>private <a href="tr_edu_ege_sst_samplechat_ui_TCommChatPanel.html">TCommChatPanel</a></code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#15">chatPanel</a></code><br> &nbsp;
+            										
+         </td>
+      </tr>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>private tr.edu.ege.sst.infrastructure.Communicator</code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#16">communicator</a></code><br> &nbsp;
+            										
+         </td>
+      </tr></tbody></table><br><br><table border="1" cellpadding="3" cellspacing="0" width="100%">
+      <thead>
+         <tr>
+            <td bgColor="#CCCCFF" colspan="2"><span style="font-size:large; font-weight:bold">Constructor Summary</span></td>
+         </tr>
+      </thead><tbody>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>public</code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#18">ClientA</a>()</code><br> <font>Creates and initializes an instance of Client A.</font>&nbsp;
+            										
+         </td>
+      </tr></tbody></table><br><br><table border="1" cellpadding="3" cellspacing="0" width="100%">
+      <thead>
+         <tr>
+            <td bgColor="#CCCCFF" colspan="2"><span style="font-size:large; font-weight:bold">Method Summary</span></td>
+         </tr>
+      </thead><tbody>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>public static void </code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#20">main</a>(String[] args)</code><br> &nbsp;
+            										
+         </td>
+      </tr>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>public tr.edu.ege.sst.infrastructure.Communicator</code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#21">getCommunicator</a>()</code><br> <font>Creates a communicator instance to communicate with other peers if not
+                initialized yet.</font>&nbsp;
+            										
+         </td>
+      </tr>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>public void </code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#22">messageReceived</a>(tr.edu.ege.sst.infrastructure.Message message)</code><br> &nbsp;
+            										
+         </td>
+      </tr>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>public void </code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#23">messageReceivedFromUI</a>(java.lang.String messageContent)</code><br> &nbsp;
+            										
+         </td>
+      </tr>
+      <tr>
+         <td align="right" valign="top" width="1%"><font size="-1"><code>private void </code></font>&nbsp;
+            										
+         </td>
+         <td><code><a href="#24">initializeFrame</a>()</code><br> <font>Initializes chat frame of Client A.</font>&nbsp;
+            										
+         </td>
+      </tr></tbody></table><br><br><br><table border="1" cellpadding="3" cellspacing="0" width="100%">
+      <tr>
+         <td bgColor="#CCCCFF"><span style="font-size:large; font-weight:bold">Field Detail</span></td>
+      </tr></table><a name="14"><span style="font-size:larger">serialVersionUID</span></a><br><br><pre>private static final long <b>serialVersionUID</b></pre><br><dl></dl><br><hr><a name="15"><span style="font-size:larger">chatPanel</span></a><br><br><pre>private <a href="tr_edu_ege_sst_samplechat_ui_TCommChatPanel.html">TCommChatPanel</a> <b>chatPanel</b></pre><br><dl></dl><br><hr><a name="16"><span style="font-size:larger">communicator</span></a><br><br><pre>private tr.edu.ege.sst.infrastructure.Communicator <b>communicator</b></pre><br><dl></dl><br><hr><br><br><br><br><table border="1" cellpadding="3" cellspacing="0" width="100%">
+      <tr>
+         <td bgColor="#CCCCFF"><span style="font-size:large; font-weight:bold">Constructor Detail</span></td>
+      </tr></table><span style="font-size:medium"><a name="18"><span style="font-size:medium">ClientA</span></a></span><br><pre>public <b>ClientA</b>()</pre><br><dl>
+         <p>Creates and initializes an instance of Client A.
+             
+             
+         </p><br></dl>
+      <hr><br><br><br><br><table border="1" cellpadding="3" cellspacing="0" width="100%">
+      <tr>
+         <td bgColor="#CCCCFF"><span style="font-size:large; font-weight:bold">Method Detail</span></td>
+      </tr></table><a name="20"><span style="font-size:medium">main</span></a><br><br><pre>public static void  <b>main</b>(String[] args)</pre><br><dl><br></dl>
+      <hr><a name="21"><span style="font-size:medium">getCommunicator</span></a><br><br><pre>public tr.edu.ege.sst.infrastructure.Communicator <b>getCommunicator</b>()</pre><br><dl>
+         <p>Creates a communicator instance to communicate with other peers if not
+             initialized yet.
+             
+             
+         </p><br></dl>
+      <hr><a name="22"><span style="font-size:medium">messageReceived</span></a><br><br><pre>public void  <b>messageReceived</b>(tr.edu.ege.sst.infrastructure.Message message)</pre><br><dl><br></dl>
+      <hr><a name="23"><span style="font-size:medium">messageReceivedFromUI</span></a><br><br><pre>public void  <b>messageReceivedFromUI</b>(java.lang.String messageContent)</pre><br><dl><br></dl>
+      <hr><a name="24"><span style="font-size:medium">initializeFrame</span></a><br><br><pre>private void  <b>initializeFrame</b>()</pre><br><dl>
+         <p>Initializes chat frame of Client A.</p><br></dl>
+      <hr><br><br><table bgcolor="#CCCCFF" border="0" cellpadding="1" cellspacing="3" table-layout="fixed" width="100%">
+         <tr bgColor="#CCCCFF" width="100%">
+            <td width="72" align="center"><b><a href="overview-summary.html">Overview</a></b></td>
+            <td width="72" align="center"><b><a href="tr.edu.ege.sst.samplechat.executors.html">Package</a></b></td>
+            <td bgColor="#00008B" width="72" align="center"><span style="color:#FFFFFF; font-weight:bold">Class</span></td>
+            <td width="72" align="center">Diagram</td>
+            <td>&nbsp;</td>
+         </tr></tbody>
+      </table>
+      <hr><br><br><center><span style="font-size:xx-small">This documentation has been generated by EclipseUML.</span></center><br></body>
+</html>

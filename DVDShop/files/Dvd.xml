@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dvd>
+    <id>dvd124</id>
+    <urunAdi>300 Bandirmali</urunAdi>
+    <yonetmen>Ovunc Cetin</yonetmen>
+    <sirket>Seagent Ltd.Sti.Corp.As.</sirket>
+    <fiyat>30</fiyat>
+    <adet>5</adet>
+</Dvd>

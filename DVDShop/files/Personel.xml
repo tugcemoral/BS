@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Personel>
+    <kullaniciAdi>kullaniciAdi</kullaniciAdi>
+    <parola>sifre</parola>
+    <adSoyad>ad soyad</adSoyad>
+</Personel>
